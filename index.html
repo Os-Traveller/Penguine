@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- tailwind css -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- icon -->
+  <script src="https://kit.fontawesome.com/427d78f432.js" crossorigin="anonymous"></script>
+  <title>Penguin Fashion</title>
+  <style>
+    .clr-header {
+      color: #FFFBF0;
+    }
+    
+    .bg-header {
+      background-color: #FFFBF0;
+    }
+    .bg-card{
+      background-color: #F1F1F1;
+    }
+  </style>
+</head>
+<body>
+  <!-- header starts -->
+  <header class="bg-header">
+    <!-- nav starts -->
+    <nav class="container flex items-center justify-between mx-auto p-4 lg:py-7">
+      <!-- nav logo -->
+      <div class="w-96">
+        <img src="./logo.png" alt="logo">
+      </div>
+
+      <!-- nav items -->
+      <div>
+        <ul class="hidden lg:flex items-center gap-6 ">
+          <li><a href="#" class="text-xl">Home</a></li>
+          <li><a href="#" class="text-xl">Product</a></li>
+          <li><a href="#" class="text-xl">About Us</a></li>
+          <li><a href="#" class="text-xl">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- 3 line hidden menu -->
+      <div class="flex flex-col gap-y-1 lg:hidden">
+        <div class="w-8 h-1 bg-black rounded-lg"></div>
+        <div class="w-8 h-1 bg-black rounded-lg"></div>
+        <div class="w-8 h-1 bg-black rounded-lg"></div>
+      </div>
+    </nav>
+    <!-- nav ends -->
+
+    <!-- herobox starts -->
+    <section class="container mx-auto p-4 text-center lg:flex lg:justify-around lg:items-center lg:text-left mt-10">
+
+      <!-- text box -->
+      <div class="basis-1/2 mb-10 lg:mb-0">
+        <h1 class="uppercase text-5xl mb-6"> <span class="text-amber-600">Be the Penguins</span> <br> of winter</h1>
+        <p class="text-xl w-2/3 mx-auto lg:mx-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda non modi dignissimos. Est repudiandae id recusandae laboriosam doloremque dignissimos!</p>
+        <button class="bg-lime-800 text-white px-4 text-2xl py-3 rounded-xl mt-5"> <i class="fas fa-shopping-cart"></i>&nbsp; Buy Now</button>
+      </div>
+
+      <!-- image box -->
+      <div>
+        <img src="./img/hero_box/model.png" alt="model" class="mx-auto">
+      </div>
+    </section>
+    <!-- herobox ends -->
+  </header>
+  <!-- header ends -->
+  <!-- main starts -->
+  <main class="container mx-auto p-5 mt-20 text-center lg:text-left">
+    <!-- ------------------------------------ card women ------------------------------------ -->
+    <!-- women jacket -->
+    <!-- section title -->
+    <h1 class="uppercase text-5xl font-medium">Woman jacket</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-14">
+      <!-- card 1 -->
+      <div class="p-4 shadow-xl rounded-3xl">
+        <div class="bg-card rounded-3xl mb-5 p-3">
+          <img src="./img/jackets/jacket-1.png" class="w-2/3 mx-auto" alt="jacket-1">
+        </div>
+        <h3 class="text-2xl font-semibold mb-3">Yellow Coat Jacket</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint fugiat aperiam placeat quibusdam aliquam ea natus. Iste eos sit sed?
+        </p>
+        <div class="flex items-center justify-between">
+          <h2 class="text-4xl text-amber-600">$234</h2>
+          <button class="bg-lime-800 text-white px-4 text-2xl py-3 rounded-xl mt-5"> <i class="fas fa-shopping-cart"></i>&nbsp; Buy Now</button>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div class="p-4 shadow-xl rounded-3xl">
+        <div class="bg-card rounded-3xl mb-5 p-3">
+          <img src="./img/jackets/jacket-2.png" class="w-2/3 mx-auto" alt="jacket-3">
+        </div>
+        <h3 class="text-2xl font-semibold mb-3">Ladies Jacket</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint fugiat aperiam placeat quibusdam aliquam ea natus. Iste eos sit sed?
+        </p>
+        <div class="flex items-center justify-between">
+          <h2 class="text-4xl text-amber-600">$234</h2>
+          <button class="bg-lime-800 text-white px-4 text-2xl py-3 rounded-xl mt-5"> <i class="fas fa-shopping-cart"></i>&nbsp; Buy Now</button>
+        </div>
+      </div>
+
+      <!-- card 3 -->
+      <div class="p-4 shadow-xl rounded-3xl">
+        <div class="bg-card rounded-3xl mb-5 p-3">
+          <img src="./img/jackets/jacket-3.png" class="w-2/3 mx-auto" alt="jacket-3">
+        </div>
+        <h3 class="text-2xl font-semibold mb-3">Woman Leather Jacket</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint fugiat aperiam placeat quibusdam aliquam ea natus. Iste eos sit sed?
+        </p>
+        <div class="flex items-center justify-between">
+          <h2 class="text-4xl text-amber-600">$234</h2>
+          <button class="bg-lime-800 text-white px-4 text-2xl py-3 rounded-xl mt-5"> <i class="fas fa-shopping-cart"></i>&nbsp; Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------------------ card men ------------------------------------ -->
+    <h1 class="uppercase text-5xl font-medium mt-20">Man jacket</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-14">
+      <!-- card 1 -->
+      <div class="p-4 shadow-xl rounded-3xl">
+        <div class="bg-card rounded-3xl mb-5 p-3">
+          <img src="./img/jackets/jacket-4.png" class="w-2/3 mx-auto" alt="jacket-4">
+        </div>
+        <h3 class="text-2xl font-semibold mb-3">Snowboeard Jacket Mens</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint fugiat aperiam placeat quibusdam aliquam ea natus. Iste eos sit sed?
+        </p>
+        <div class="flex items-center justify-between">
+          <h2 class="text-4xl text-amber-600">$234</h2>
+          <button class="bg-lime-800 text-white px-4 text-2xl py-3 rounded-xl mt-5"> <i class="fas fa-shopping-cart"></i>&nbsp; Buy Now</button>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div class="p-4 shadow-xl rounded-3xl">
+        <div class="bg-card rounded-3xl mb-5 p-3">
+          <img src="./img/jackets/jacket-5.png" class="w-2/3 mx-auto" alt="jacket-5">
+        </div>
+        <h3 class="text-2xl font-semibold mb-3">Man Leather Jackets</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint fugiat aperiam placeat quibusdam aliquam ea natus. Iste eos sit sed?
+        </p>
+        <div class="flex items-center justify-between">
+          <h2 class="text-4xl text-amber-600">$234</h2>
+          <button class="bg-lime-800 text-white px-4 text-2xl py-3 rounded-xl mt-5"> <i class="fas fa-shopping-cart"></i>&nbsp; Buy Now</button>
+        </div>
+      </div>
+
+      <!-- card 3 -->
+      <div class="p-4 shadow-xl rounded-3xl">
+        <div class="bg-card rounded-3xl mb-5 p-3">
+          <img src="./img/jackets/jacket-6.png" class="w-2/3 mx-auto" alt="jacket-6">
+        </div>
+        <h3 class="text-2xl font-semibold mb-3">Man Casual Jackets</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint fugiat aperiam placeat quibusdam aliquam ea natus. Iste eos sit sed?
+        </p>
+        <div class="flex items-center justify-between">
+          <h2 class="text-4xl text-amber-600">$234</h2>
+          <button class="bg-lime-800 text-white px-4 text-2xl py-3 rounded-xl mt-5"> <i class="fas fa-shopping-cart"></i>&nbsp; Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- main ends -->
+  <section class="mt-40 container mx-auto">
+    <div class="xl:flex">
+
+      <div class="basis-2/3 flex items-center justify-center order-2 mb-16 xl:mb-0">
+        <div class="w-2/3">
+          <img src="./img/icons/shopping.png" alt="shopping">
+        </div>
+      </div>
+      
+      <div class="flex flex-col gap-y-5 order-1">
+        <!-- card-1 -->
+        <div class="flex gap-x-10 rounded-2xl shadow-lg p-4">
+          <div>
+            <img src="./img/icons/image 12.png" alt="icon" class="w-36 h-36">
+          </div>
+
+          <div>
+            <h4 class="mb-4 text-2xl font-bold">Find the Perfect Fit</h4>
+            <p class="text-lg">Everybody is different, which is why we offer styles for everybody</p>
+          </div>
+        </div>
+
+        <!-- card -2 -->
+
+        <div class="flex gap-x-10 rounded-2xl shadow-lg p-4">
+          <div>
+            <img src="./img/icons/image 13.png" alt="icon" class="w-36 h-36">
+          </div>
+
+          <div>
+            <h4 class="mb-4 text-2xl font-bold">Free Exchanges</h4>
+            <p class="text-lg">One of many reason you can shop with peace of mind</p>
+          </div>
+        </div>
+
+        <!-- card-3 -->
+
+        <div class="flex gap-x-10 rounded-2xl shadow-lg p-4">
+          <div>
+            <img src="./img/icons/image 14.png" alt="icon" class="w-36 h-36">
+          </div>
+
+          <div>
+            <h4 class="mb-4 text-2xl font-bold">Contact Our Seller</h4>
+            <p class="text-lg">They are here to help you. That's quite litterally what we pay them for</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>
